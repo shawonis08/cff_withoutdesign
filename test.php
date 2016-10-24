@@ -15,7 +15,7 @@
 
 	$to="shawonis08@gmail.com";
 	$subject="clickforFly";
-	$body="From: $fromdestination\nTo: $todestination\nName As Passport:$passportname\nFirst Name: $fname\nLast Name: $lname\nEmail: $email\nContact No.: $contactno\nPassPort No. :$passportno\nAddress: $address:\n";
+	$body="From: $fromdestination\nTo: $todestination\nName As Passport:$pname\nFirst Name: $fname\nLast Name: $lname\nEmail: $email\nContact No.: $contactno\nPassPort No. :$passportno\nAddress: $address:\n";
 
 	mail($to, $subject, $body);
 
